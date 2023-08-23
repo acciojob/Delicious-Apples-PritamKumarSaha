@@ -2,22 +2,32 @@
 body{
 	background-color:#10e37f;
 }
+.product{
+	background:white;
+	display:flex;
+	justify-content:center;
+/* 	align-items:center; */
+	gap:20px;
+}
 .product__photo{
 	display:flex;
 /* 	justify-content:spa */
 	flex-direction:column;
-	width:350px;
+	width:340px;
 }
 
 .photo-container{
 	
 }
 .photo-main{
-	
+	background-image:radial-gradient(circle,#bbd472,#97e004);
 }
 .controls{
 	display:flex;
 	justify-content:space-between
+	
+}
+.controls>img{
 }
 i{
 	color:white;
@@ -29,7 +39,14 @@ i{
 	display:flex;
 	flex-direction:row;
 	justify-content:space-evenly;
+	padding:24px;
+	padding-buttom:px;
 	
+}
+li{
+	border:1px solid #d5d5d5;
+	list-style-type:none;
+	border-radius:10%;
 }
 
 
