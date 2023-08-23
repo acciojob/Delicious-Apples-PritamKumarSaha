@@ -1,6 +1,7 @@
 /* your code here */
 body{
 	background-color:#10e37f;
+	font-family:arial;
 }
 .product{
 	background:white;
@@ -49,6 +50,30 @@ li{
 	border-radius:10%;
 }
 
-
+.product__info{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+/* .title{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	
+} */
+.title>h1{
+	color:#4c4c4c;
+}
+.title>span{
+	color:#a6a6a6;
+	font-size:x-small;
+	
+}
+.price{
+	color:#fe3f40;
+}
+.price>span{
+	font-size:xxx-large;
+}
 
 
