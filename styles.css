@@ -1,1 +1,37 @@
 /* your code here */
+body{
+	background-color:#10e37f;
+}
+.product__photo{
+	display:flex;
+/* 	justify-content:spa */
+	flex-direction:column;
+	width:350px;
+}
+
+.photo-container{
+	
+}
+.photo-main{
+	
+}
+.controls{
+	display:flex;
+	justify-content:space-between
+}
+i{
+	color:white;
+}
+.photo-album{
+	background-color:white;
+}
+.photo-album>ul{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	
+}
+
+
+
+
